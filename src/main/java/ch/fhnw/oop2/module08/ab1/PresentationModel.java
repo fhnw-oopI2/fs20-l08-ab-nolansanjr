@@ -13,11 +13,11 @@ public final class PresentationModel {
         windowTitle = new SimpleStringProperty("JavaFX Application");
     }
 
-    public SimpleStringProperty buttonText() {
+    public SimpleStringProperty getButtonText() {
         return buttonText;
     }
 
-    public SimpleStringProperty windowTitle(){
+    public SimpleStringProperty getWindowTitle(){
         return windowTitle;
     }
 }

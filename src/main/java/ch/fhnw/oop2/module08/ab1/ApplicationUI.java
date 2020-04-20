@@ -17,7 +17,7 @@ public class ApplicationUI extends StackPane {
 
     public void initializeControls(){
         button = new Button();
-        button.textProperty().bind(pm.buttonText());
+        button.textProperty().bind(pm.getButtonText());
     }
 
     public void layoutControls(){
